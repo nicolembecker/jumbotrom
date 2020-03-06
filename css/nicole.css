@@ -2,17 +2,22 @@
 body {
     font-family: 'Abril Fatface';
     font-size: 1.2em;
+    color: beige;
 }
 
 .text-title {
     font-family: 'Abril Fatface';
     font-size: 8em;
+    color: beige;
 }
 
 .text-subtitle {
     font-family: 'Oxanium';
+    font-size: 2.2em;
+    color: beige;
 }
 
 .bg-title {
-    background-image: linear-gradient(to bottom right, #63736B, #9FD5BC);
+    /*background-image: linear-gradient(to bottom right, #63736B, #9FD5BC);*/
+    background: url("../img/back.jpg");
 }
