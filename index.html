@@ -5,29 +5,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/nicole.css">
     <link rel="shortcut icon" href="img/h.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="bibli/MaterialDesign-Webfont-master/css/materialdesignicons.css">
     <title>jumbotrom</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="bibli/MaterialDesign-Webfont-master/css/materialdesignicons.css">
+    <link rel="stylesheet" href="css/nicole.css">
 </head>
 
 <body>
-    <div class="jumbotron jumbotron-fluid bg-title">
-        <h1 class="display-4 text-center text-title">Nicole Becker</h1>
-        <p class="lead text-center text-subtitle">
+    <div class="jumbotron jumbotron-fluid text-center bg-title">
+        <h1 class="display-4 text-title">Nicole Becker</h1>
+        <p class="tam text-subtitle">
             <i class="mdi mdi-monitor mdi-36px"></i> 2° Integrado Desenvolvimento de Sistemas.
         </p>
     </div>
 
-    <div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-nav" style="margin-top: -2em;">
+        <a class="navbar-brand" href="index.html">Integrado</a>
+        <button class="navbar-toggler text-white" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="my-nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Item 1 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
+
+    <br><br><br><br><br><br>
+
+    <!-- Criando um footer -->
+    <div class="container-fluid bg-footer">
+        <div class="row">
+            <div class="offset-md-2 col-md-3 col-12 mt-5">
+                <p class="text-white">
+                    Todos os direitos reservados.
+                    <br>Nicole Marques Becker \0w0/
+                </p>
+            </div>
+            <div class="col-md-3 col-12 mt-3 text-white">
+                <p>Mapa do site</p>
+                <ul>
+                    <li>Home</li>
+                    <li>Quem Somos</li>
+                    <li>Cursos</li>
+                    <li>Fale Conosco</li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-12 mt-3 text-white">
+                <i class="mdi mdi-facebook mdi-24px"></i>/nicolemarquesbecker <br>
+                <i class="mdi mdi-instagram mdi-24px"></i>/@nancymback <br>
+                <i class="mdi mdi-whatsapp mdi-24px"></i> (14) 99725-6991 <br>
+                <i class="mdi mdi-email mdi-24px"></i> nicolemarques.becker@gmail.com
+            </div>
+        </div>
     </div>
-
 
 
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/bootstrap.js"></script>
+
+
 </body>
 
 </html>

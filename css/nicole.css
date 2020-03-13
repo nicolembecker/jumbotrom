@@ -2,7 +2,6 @@
 body {
     font-family: 'Abril Fatface';
     font-size: 1.2em;
-    background-color: #BED8DB;
 }
 
 .text-title {
@@ -18,6 +17,14 @@ body {
 }
 
 .bg-title {
-    /*background-image: linear-gradient(to bottom right, #63736B, #9FD5BC);*/
+    /* background-image: linear-gradient(to bottom right, #63736B, #9FD5BC); */
     background: url("../img/back.jpg");
+}
+
+.bg-footer {
+    background: #000000;
+}
+
+.bg-nav {
+    background-image: linear-gradient(to bottom right, #000000, #121313);
 }
