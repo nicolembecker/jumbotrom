@@ -2,6 +2,7 @@
 body {
     font-family: 'Abril Fatface';
     font-size: 1.2em;
+    background-color: #363845;
 }
 
 .text-title {
@@ -22,9 +23,26 @@ body {
 }
 
 .bg-footer {
-    background: #000000;
+    background: #0D0D0D;
 }
 
 .bg-nav {
-    background-image: linear-gradient(to bottom right, #000000, #121313);
+    background-image: linear-gradient(to bottom right, #1c93a3, #05011b);
+}
+
+.mt-n6 {
+    margin-top: -4rem;
+}
+
+.text-span {
+    z-index: 99;
+    position: absolute;
+}
+
+.fonte {
+    font-family: 'Lora', serif;
+}
+
+.fon {
+    font-family: 'Crete Round', serif;
 }
